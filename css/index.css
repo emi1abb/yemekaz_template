@@ -15,7 +15,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.494);
 }
 
 header .navbar {
@@ -148,9 +149,7 @@ header .search i:hover {
 
 .content-ptwo .content {
     padding: 2rem;
-    border: 1px solid darkorange;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 3px darkorange;
     display: flex;
     align-items: center;
     gap: 1rem;
