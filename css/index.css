@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.494), rgba(0, 0, 0, 0.5)), url(../images/heor-bg.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .navbar {
+    width: 25%;
+}
+
+header .logo a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: darkorange;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: darkorange;
+}
+
+header .search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .search i {
+    color: white;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+header .search i:hover {
+    color: darkorange;
+}
+
+.main-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.main-welcome div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-welcome p {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: darkorange;
+}
+
+.main-welcome .text {
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.main-welcome .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-welcome .buttons button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s all;
+}
+
+.main-welcome .buttons button:first-child {
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    color: white;
+}
+
+.main-welcome .buttons button:first-child:hover {
+    background-color: rgb(27, 27, 43);
+    border: 1px solid rgb(27, 27, 43);
+    color: darkorange;
+}
+
+.main-welcome .buttons button:last-child {
+    border: 1px solid darkorange;
+    color: white;
+}
+
+.main-welcome .buttons button:last-child:hover {
+    background-color: rgb(27, 27, 43);
+    background-color: darkorange;
+}
+
+.parttwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(237, 218, 218);
+}
+
+.content-ptwo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-ptwo i {
+    font-size: 2rem;
+}
+
+.content-ptwo .content {
+    padding: 2rem;
+    border: 1px solid darkorange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 3px darkorange;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-ptwo .content p {
+    font-size: 0.9rem;
+    color: rgb(110, 110, 110);
+}
